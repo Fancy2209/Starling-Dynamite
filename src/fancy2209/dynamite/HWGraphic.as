@@ -84,13 +84,9 @@ package fancy2209.dynamite
                                 index+=4
                             }     
                         }
-                    }
-                    
-                if (graphicsProperties is GraphicsEndFill)
-                    {
+                    }  
                     trace("endFill()")
                     _shape.graphics.endFill()
-                    }
         }}}
 
         public function get graphicData():Vector.<IGraphicsData> 
